@@ -14,16 +14,18 @@ const Layout = async ({ children }: Props) => {
     <div className="h-screen flex w-full justify-center">
       <div className="w-[600px] ld:w-full flex flex-col items-start p-6">
         <Image
-          src="/images/logo.png"
+          src="/images/logo-img.png"
           alt="LOGO"
           sizes="100vw"
           style={{
-            width: "20px",
+            width: "50px",
             height: "auto",
+            cursor: 'pointer'
           }}
           width={0}
           height={0}
         />
+        <h2>Triumph</h2>
         {children}
       </div>
       <div className="hidden lg:flex flex-1 w-full max-h-full max-w-4000px overflow-hidden relative bg-cream  flex-col pt-10 pl-24 gap-3">
