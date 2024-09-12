@@ -1,15 +1,9 @@
-import React from 'react'
+import React from "react";
 
-type Props = {
-
-}
+type Props = {};
 
 const SignUp = (props: Props) => {
-  return (
-    <div>
-      SignIn
-    </div>
-  )
-}
+  return <div>SignIn</div>;
+};
 
 export default SignUp;
