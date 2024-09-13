@@ -1,13 +1,11 @@
-import React from 'react'
+import React from "react";
 
 type Props = {
-    children: React.ReactNode
-}
+  children: React.ReactNode;
+};
 
-const SignUpFormProvider = ({children}: Props) => {
-  return (
-    <div>SignUpFormProvider</div>
-  )
-}
+const SignUpFormProvider = ({ children }: Props) => {
+  return <div>SignUpFormProvider</div>;
+};
 
-export default SignUpFormProvider
+export default SignUpFormProvider;
