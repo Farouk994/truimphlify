@@ -18,7 +18,7 @@ const OTPForm = dynamic(() => import('./otp-form'), {
 
 type Props = {}
 
-// this is the signUp form :TODO:
+// this is the signUp form :TODO::
 const RegistrationFormStep = (props: Props) => {
   const {
     register,
