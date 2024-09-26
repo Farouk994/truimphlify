@@ -5,7 +5,7 @@ import ButtonHandler from "@/components/form/sign-up/button-handlers";
 import HighLightBar from "@/components/form/sign-up/highlight-bar";
 
 type Props = {};
-
+// :TODO: Sign up form
 const SignUp = (props: Props) => {
   return (
     <div className="flex-1 py-36 md:px-16 w-full">
